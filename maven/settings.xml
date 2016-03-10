@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<settings>
+    <servers>
+        <server>
+            <username>admin</username>
+            <password>shifthappens123</password>
+            <filePermissions>664</filePermissions>
+            <directoryPermissions>775</directoryPermissions>
+            <id>release</id>
+        </server>
+        <server>
+            <username>admin</username>
+            <password>shifthappens123</password>
+            <filePermissions>664</filePermissions>
+            <directoryPermissions>775</directoryPermissions>
+            <id>snapshots</id>
+        </server>
+    </servers>
+</settings>
