@@ -1,12 +1,26 @@
 <?xml version="1.0"?>
 <settings>
+    <mirrors>
+        <mirror>
+            <id>public</id>
+            <name>Tradeshift Nexus (Releases)</name>
+            <url>http://172.16.30.71:8081/nexus/content/repositories/public</url>
+            <mirrorOf>central,!snapshots</mirrorOf>
+        </mirror>
+        <mirror>
+            <id>snapshots</id>
+            <name>Tradeshift Nexus (Snapshots)</name>
+            <url>http://172.16.30.71:8081/nexus/content/repositories/snapshots</url>
+            <mirrorOf>snapshots</mirrorOf>
+        </mirror>
+    </mirrors>
     <servers>
         <server>
             <username>admin</username>
             <password>shifthappens123</password>
             <filePermissions>664</filePermissions>
             <directoryPermissions>775</directoryPermissions>
-            <id>release</id>
+            <id>releases</id>
         </server>
         <server>
             <username>admin</username>
